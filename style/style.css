@@ -56,7 +56,7 @@ body{
     font-size: 69px;
     font-weight: 800;
     color: #FFF;
-    margin-top: 160px;
+    margin-top: 10px;
 }
 .banner-para{
     color: #FFF;
@@ -71,7 +71,9 @@ body{
     font-weight: 400;
     background: rgba(255, 255, 255, 0.30);
     width: 783px;
+    background-position: center;
     border-radius: 12px;
+    margin: auto;
 }
 .where-go{
     border: none;
@@ -121,6 +123,41 @@ body{
 }
 .banner{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
+}
+.banner-container{
+    margin: 106px 185px;
+}
+.finishing-touch{
+    background: rgba(19, 19, 24, 0.05);
+    height: 550px;
+}
+.finishing-container{
+    min-height: 50px;
+    font-weight: 800;
+    display: flex;
+    font-size: 33px;
+    align-items: center;
+}
+.finishing-container img{
+    width: 49px;
+    object-fit: cover;
+    margin-right: 18px;
+}
+.final-para{
+    font-weight: 400;
+    font-size: 17px;
+    color: #5A5A5D;
+}
+.final-logo{
+    font-size: 25px;
+}
+.final-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align:center ;
+    align-items: center;
 }
