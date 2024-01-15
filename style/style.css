@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;800&display=swap');
+
+body{
+    font-family: 'Mulish', sans-serif;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+.orange-text{
+    color: #FF5400;
+}
+.orange-bg{
+    background-color: #FF5400;
+}
+.menu-section {
+    /* max-width: 1380px; */
+    /* margin: 0 auto; */
+    display: flex;
+}
+.menu-container {
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+.menu-container img {
+    width: 49px;
+    object-fit: cover;
+    margin-right: 18px;
+}
+.menu-container p{
+    font-size: 48px;
+    font-weight: 800;
+}
+.items-container a{
+    text-decoration: none;
+    color: #424247;
+}
+.items-container{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 400;
+}
+.banner{
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url('../Images/Group\ 39.png');
+    height: 600px;
+    width: 100%;
+    margin-top: -40px;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-header{
+    font-size: 68px;
+    font-weight: 800;
+    color: #FFF;
+}
+.banner-para{
+    color: #FFF;
+    font-weight: 400;
+    font-size: 18px;
+    text-justify: distribute-all-lines;
+}
+.banner-button{
+    font-weight: 400;
+
+}
+.where-go{
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    height: 45px;
+    width: 164px;
+    color: rgba(19, 19, 24, 0.50);
+}
+.select-when{
+    border-radius: 8px;
+    height: 45px;
+    width: 164px;
+    color: rgba(19, 19, 24, 0.50);
+}
+.find-now{
+
+}
