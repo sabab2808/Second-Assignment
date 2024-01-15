@@ -45,42 +45,82 @@ body{
 }
 .banner{
     background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url('../Images/Group\ 39.png');
-    height: 600px;
+    height: 650px;
     width: 100%;
-    margin-top: -40px;
+    margin-top: 0px;
     border-radius: 15px;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .banner-header{
-    font-size: 68px;
+    font-size: 69px;
     font-weight: 800;
     color: #FFF;
+    margin-top: 160px;
 }
 .banner-para{
     color: #FFF;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     text-justify: distribute-all-lines;
+    width: 100% ;
+    margin-top: -30px;
+    margin-bottom: 70px;
 }
 .banner-button{
     font-weight: 400;
-
+    background: rgba(255, 255, 255, 0.30);
+    width: 783px;
+    border-radius: 12px;
 }
 .where-go{
     border: none;
     outline: none;
     border-radius: 8px;
-    height: 45px;
-    width: 164px;
+    height: 50px;
+    width: 169px;
     color: rgba(19, 19, 24, 0.50);
+    font-size: 17px;
+    margin: 16px;
+    margin-right: 19px;
 }
 .select-when{
     border-radius: 8px;
-    height: 45px;
-    width: 164px;
+    height: 50px;
+    width: 169px;
     color: rgba(19, 19, 24, 0.50);
+    font-size: 17px;
+    margin: 16px;
+    margin-right: 19px;
+    margin-left: 0;
 }
 .find-now{
-
+    background-color: #FF5400;
+    color: #FFF;
+    border: none;
+    font-size: 17px;
+    border-radius: 8px;
+    height: 50px;
+    width: 169px;
+    margin: 16px;
+    margin-left: 0;
+}
+.select-type{
+    border: none;
+    border-radius: 8px;
+    height: 50px;
+    width: 169px;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 17px;
+    margin: 16px;
+    margin-right: 19px;
+    margin-left: 0;
+}
+.select-type:focus{
+    outline: none;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
