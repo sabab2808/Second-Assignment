@@ -289,17 +289,15 @@ main{
     backdrop-filter: blur(2.5px);
     margin: 0;
     padding: 30px;
-    position: absolute;
+    position: relative;
 }
 .discount1-container,.discount3-container{
-    /* top: 80px; */
-    right: 15.5%;
-    margin-top:80px ;
-
+    left: 56.5%;
+    top: 13.5%;
 }
 .discount2-container{
-    left: 15.5%;
-    margin-top:80px ;
+    left: 2.8%;
+    top: 13.5%;
 }
 .discount1{
     background-image: url('../Images/Group\ 39.png');

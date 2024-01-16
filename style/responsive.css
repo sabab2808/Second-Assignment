@@ -33,12 +33,12 @@
         height: 500px;
     }
     .banner-header{
-        font-size: 22px;
+        font-size: 24px;
         margin-top :10px ;
     }
     .banner-para{
-        font-size: 14px;
-        width: 308px;
+        font-size: 13.5px;
+        width: 320px;
         margin: 18px auto;
     }
 
@@ -55,9 +55,34 @@
     .select-when,.find-now,.select-type{
         margin-top: 0;
     }
-
-
-
+    .tour-text h1{
+        font-size: 20px;
+    }
+    .tour-text{
+        width: 100%;
+        margin: 30px auto;
+    }
+    .tour-para,li{
+        font-size: 14px;
+    }
+    .tour-img{
+        height: 382px;
+        width: 100%;
+    }
+    .tour-container{
+        display: flex;
+        flex-direction: column;
+        margin: 60px auto;
+    }
+    .destination-text h1{   
+        margin: 0;
+        font-size: 20px;
+        font-weight: 800;   
+    }
+    .destination-text p{
+        width: 350px;
+        margin-bottom: 40px;
+    }   
 
 
 
