@@ -83,24 +83,30 @@
         width: 350px;
         margin-bottom: 40px;
     }   
-
-
-
-
-
-
-
-
-
-
-
-    .grid-container {
-        grid-template-columns: 1fr;
+    .grid1{
+        display: block;
+        max-width: 600px;
     }
-    .end-container{
-        display: flex;
-        flex-direction: column;
+    .grid2{
+        display: block;
+        max-width: 600px;
     }
+    .grid3{
+        display: block;
+        max-width: 600px;
+    }
+    .grid-container{
+        display: block;
+        max-width: 600px;
+    }
+    .grid-container img{
+        margin: 8px auto;
+    }
+
+
+
+
+
 
     /* footer-section-responsive */
     .finishing-touch{
