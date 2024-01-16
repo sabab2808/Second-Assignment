@@ -139,6 +139,96 @@ main{
 .banner-container{
     margin: 106px 185px;
 }
+
+
+
+.end-text{
+    width: 30.5%;
+    border: 1.5px solid #FF5400;
+    padding: 40px;
+    padding-left: 60px;
+    border-radius: 10px;
+    height: 375px;
+}
+.end-text hr{
+    width: 393px;
+    margin-left: 0;
+    border-color: rgba(19, 19, 24, 0.10);
+}
+.end-heading{
+    font-size: 25px;
+    font-weight: 800;
+    margin: 0;
+}
+.end-para{
+    font-size: 15px;
+    font-weight: 400;
+    color: #5A5A5D;
+    width: 390px;
+}
+.end-form input{
+    width: 390px;
+    height: 52px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: rgba(19, 19, 24, 0.05);
+    border-radius: 7px;
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 14px;
+    margin: 15px 0;
+}
+.end-form input:focus{
+    outline: none;
+    
+}
+.end-form button{
+    width: 394px;
+    height: 52px;
+    border: none;
+    font-size:15px ;
+    font-weight: 600;
+    color: #FFF;
+    border-radius: 7px;
+}
+
+.end-container{
+    display: flex;
+    justify-content: space-between;
+}
+.end-img{
+    height: 456px;
+    width: 822px;
+}
+.offer{
+    position: relative;
+    background-color: #FF5400;
+    color: #FFF;
+    width: 260px;
+    height: 100px;
+    text-align: center;
+    border-radius: 10px;
+    justify-content: center;
+    transform: rotate(-15deg);
+    padding: 90px auto;
+    margin: -161px 0 125px 1090px;
+}
+.offer-h1{
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+.offer-p{
+    font-size: 17px;
+    margin-top: 120px;
+    font-weight: 400;
+}
+.end-part{
+    margin: 80px auto;
+}
+
+/* footer-section */
 .finishing-touch{
     background: rgba(19, 19, 24, 0.05);
     height: 550px;
