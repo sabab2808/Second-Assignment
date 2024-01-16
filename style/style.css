@@ -249,7 +249,7 @@ main{
 }
 .first, .second , .third{
     height: 260px;
-    width: 45%;
+    width: 47%;
 }
 .first{
     border-radius: 16px;
@@ -278,6 +278,94 @@ main{
     margin: 100px auto;
 }
 
+
+.discount1-container,.discount2-container,.discount3-container{
+    height: 340px;
+    width: 490px;
+    background: ;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    margin: 0;
+    padding: 30px;
+    position: absolute;
+}
+.discount1-container,.discount3-container{
+    /* top: 80px; */
+    right: 15.5%;
+    margin-top:80px ;
+
+}
+.discount2-container{
+    left: 15.5%;
+    margin-top:80px ;
+}
+.discount1{
+    background-image: url('../Images/Group\ 39.png');
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    margin: 20px auto;
+    /* padding: 25px; */
+}
+.discount2{
+    background-image: url('../Images/Group\ 40.png');
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    margin: 20px auto;
+    /* padding: 25px; */
+}
+.discount3{
+    background-image: url('../Images/Group\ 41.jpg');
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    border-radius: 15px;
+    margin: 20px auto;
+    /* padding: 30px; */
+}
+.package-btn{
+    background-color: #FF5400;
+    color: #FFF;
+    height: 52px;
+    width: 195px;
+    font-size: 18px;
+    font-size: 800;
+    border: none;
+    border-radius: 8px;
+    margin: 30px auto;
+}
+
+.special-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.deals{
+    margin: 60px auto;
+    height: 2000px;
+}
+.details-name{
+    font-size: 26px;
+    font-weight: 800;
+}
+.details-para{
+    font-size: 15px;
+    font-weight: 400;
+    width: 400px;
+    color: #5A5A5D;
+}
+.details-price{
+    font-size: 20px;
+    color: #FF5400;
+    font-weight: 800;
+}
 
 
 .getlost{
@@ -368,6 +456,12 @@ main{
 .icon-links i{
     margin-right: 10px;
 }
+
+.details{
+    display: flex;
+    justify-content: space-around;
+}
+
 .end-text{
     width: 30.5%;
     border: 1.5px solid #FF5400;
@@ -505,4 +599,8 @@ hr {
     width: 930px;
     height: 1px;
     margin: 34px auto;
+}
+svg{
+    vertical-align: middle;
+    margin-right: 5px;
 }
