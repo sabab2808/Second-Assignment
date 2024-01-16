@@ -102,9 +102,112 @@
     .grid-container img{
         margin: 8px auto;
     }
+    .choose-heading{
+        font-size: 20px;
+    }
+    .first, .second , .third{
+        height: 300px;
+        width: 85%;
+        padding: 15px auto;
+        margin: 2px auto;
+    }
+    .first svg, .second svg, .third svg{
+        height: 48px;
+        width: 48px;
+    }
+    .choose-para{
+        color: #5A5A5D;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 26px;
+        width: 310px;
+    }
+    .first-flex{
+        display: flex;
+        flex-direction: column;
+        margin: 25px auto;
+    }
 
-
-
+    .destination-text p{
+        margin: 25px auto;
+    }
+    .details-name{
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .details-para{
+        font-size: 14px;
+        width: 300px;
+    }
+    .details-price{
+        font-size: 16px;
+    }
+    .discount1-container,.discount2-container,.discount3-container{
+        height: 310px;
+        width: 303px;
+    }
+    .discount1-container,.discount3-container{
+        left: 4%;
+        right: 4%;
+        top: 30%;
+    }
+    .discount2-container{
+        left: 4%;
+        right: 4%;
+        top: 30%;
+    }
+    .package-btn{
+        display: none;
+    }
+    .deals{
+        height: 1800px;
+    }
+    .get-text h1{
+        margin: 0;
+        font-size: 20px;
+        width: 230px;
+        line-height: 28px;
+    }
+    .get-para,.get-text li{
+        font-size: 14px;
+        width: 100%;
+    }
+    .get-text{
+        width: 100%;
+        margin: 20px auto;
+    }
+    .get-img{
+        height: 200px;
+        width: 100%;
+    }
+    .get-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .get-extra h2{
+        font-size: 20px;
+        width: 220px;
+    }
+    .progress{
+        width: 86%;
+        top: 80%;
+        left: 29px;
+    }
+    .icon1 i{
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    .icon-links i{
+        margin-right: 5px;
+    }
+    .icon-links{
+        font-size: 18px;
+        color: #FFF;
+        position: absolute;
+        top: 63.5%;
+        left: 75%;
+        margin: auto 8px;
+    }
 
 
 
