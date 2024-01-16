@@ -1,15 +1,60 @@
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
+    body{
+        margin: auto 15px;
+    }
+    .menu-section {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+    .menu-container img {
+        margin-right: 2px;
+        width: 39px;
+    }
+    .items-container {
+        display: none;
+    }
+    .menu-container p{
+        font-size: 24px;
+        font-weight: 800;
+    }
+    main{
+        max-width: 600px;
+        margin: 18px auto;
+    }
+    .extra-img{
+        display: block;
+        height: 24px;
+        width: 24px;
+        margin-top: 30px;
+    }
 
-    
+    .banner{
+        height: 500px;
+    }
+    .banner-header{
+        font-size: 22px;
+        margin-top :10px ;
+    }
+    .banner-para{
+        font-size: 14px;
+        width: 308px;
+        margin: 18px auto;
+    }
 
-
-
-
-
-
-
-
-
+    .banner-container{
+        margin: 0;
+    }
+    .banner-button{
+        width: 190px;
+    }
+    .where-go, .select-when,.find-now,.select-type{
+        margin-left: 10px;
+        font-size: 15px;
+    }
+    .select-when,.find-now,.select-type{
+        margin-top: 0;
+    }
 
 
 
