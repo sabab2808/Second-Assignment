@@ -206,22 +206,30 @@ main{
 .grid-item img {
     width: 100%;
     height: 300px;
-    border-radius: 20px;
+    border-radius: 25px;
 }
 .grid-item {
     position: relative;
 }
-.srilanka{
-    height: 285px;
-    width: 30%;
-}
-.grid-container {
-    margin-top:50px ;
+.grid1{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+    gap: 20.5px;
 }
-
+.grid2{
+    display: grid;
+    grid-template-columns: 440px 540px 340px;
+    gap: 20.5px;
+}
+.grid3{
+    display: grid;
+    grid-template-columns: 570px 770px;
+    gap: 20.5px;
+}
+.grid-container{
+    display: grid;
+    gap: 20.5px;
+}
 .getlost{
     margin: 70px auto;
 }
