@@ -234,6 +234,52 @@ main{
 .destination{
     margin-bottom: 60px;
 }
+
+.choose-heading{
+    font-size: 24px;
+    font-weight: 800;
+    margin: 30px auto;
+}
+.choose-para{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 570px;
+}
+.first, .second , .third{
+    height: 260px;
+    width: 45%;
+}
+.first{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 25px;
+}
+.second{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 25px;
+}
+.third{
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 25px;
+    margin: 25px auto;
+}
+.first-flex{
+    display: flex;
+    gap: 25px;
+}
+.choose{
+    margin: 100px auto;
+}
+
+
+
 .getlost{
     margin: 70px auto;
 }
