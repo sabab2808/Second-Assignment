@@ -8,7 +8,7 @@
         text-align: center;
     }
     .menu-container img {
-        margin-right: 2px;
+        margin-right: 7px;
         width: 39px;
     }
     .items-container {
@@ -18,7 +18,7 @@
         font-size: 24px;
         font-weight: 800;
     }
-    main{
+    header,main{
         max-width: 600px;
         margin: 18px auto;
         margin: auto 15px;
@@ -109,7 +109,7 @@
     .first, .second , .third{
         height: 300px;
         width: 85%;
-        padding: 15px auto;
+        padding: 15px;
         margin: 2px auto;
     }
     .first svg, .second svg, .third svg{
