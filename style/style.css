@@ -235,6 +235,8 @@ main{
     margin-bottom: 60px;
 }
 
+
+
 .choose-heading{
     font-size: 24px;
     font-weight: 800;
@@ -277,7 +279,6 @@ main{
 .choose{
     margin: 100px auto;
 }
-
 
 .discount1-container,.discount2-container,.discount3-container{
     height: 340px;
@@ -600,4 +601,7 @@ hr {
 svg{
     vertical-align: middle;
     margin-right: 5px;
+}
+.discount-br{
+    display: none;
 }

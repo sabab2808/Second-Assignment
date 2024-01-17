@@ -1,7 +1,7 @@
 @media only screen and (max-width: 600px) {
-    body{
+    /* body{
         margin: auto 15px;
-    }
+    } */
     .menu-section {
         display: flex;
         justify-content: space-between;
@@ -21,6 +21,7 @@
     main{
         max-width: 600px;
         margin: 18px auto;
+        margin: auto 15px;
     }
     .extra-img{
         display: block;
@@ -142,6 +143,9 @@
     .details-price{
         font-size: 16px;
     }
+    .details svg ,.details p{
+        font-size: 16px;
+    }
     .discount1-container,.discount2-container,.discount3-container{
         height: 310px;
         width: 303px;
@@ -202,16 +206,64 @@
     }
     .icon-links{
         font-size: 18px;
-        color: #FFF;
-        position: absolute;
         top: 63.5%;
         left: 75%;
         margin: auto 8px;
     }
 
+    .end-text{
+        width: 85%;
+        padding: 30px;
+        /* padding-left: 60px; */
+        border-radius: 16px;
+        height: 325px;
+        margin-bottom: 30px;
+        margin-top: -40px;
+    }
+    .end-form input,.end-form button{
+        width: 286px;
+    }
+    .end-text hr{
+        width: 296px;
+    }
+    .end-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .end-img{
+        height: 300px;
+        width: 100%;
+    }
+    .end-para{
+        font-size: 14px;
+        width: 320px;
+        margin-bottom: 20px;
+    }
+    .offer{
+        width: 210px;
+        height: 80px;
+        transform: rotate(-28deg);
+        padding: 90px auto;
+        text-align: center;
+    }
+    .offer-h1{
+        font-size: 22px;
+        font-weight: 800;
+    }
+    .offer-p{
+        font-size: 17px;
+        margin-top: -60px;
+    }
+    .discount{
+        position: absolute;
+        right: 25px;
+    }
+
+
 
 
     /* footer-section-responsive */
+
     .finishing-touch{
         background: rgba(19, 19, 24, 0.05);
         height: 370px;
@@ -256,5 +308,8 @@
         font-weight: 400;
         font-size: 12px;
         color: #5A5A5D;
+    }
+    .discount-br{
+        display: block;
     }
 }
