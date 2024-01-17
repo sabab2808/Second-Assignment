@@ -135,10 +135,12 @@
     .details-name{
         font-size: 20px;
         font-weight: 800;
+        margin-top: 0;
     }
     .details-para{
         font-size: 14px;
-        width: 285px;
+        max-width: 295px;
+        margin: 0;
     }
     .details-price{
         font-size: 16px;
@@ -148,17 +150,33 @@
     }
     .discount1-container,.discount2-container,.discount3-container{
         height: 310px;
-        width: 303px;
+        width: 290px;
     }
     .discount1-container,.discount3-container{
-        left: 4%;
-        right: 4%;
+        left: 6.3%;
+        right: 6.3%;
         top: 30%;
+        width: 75%;
     }
     .discount2-container{
-        left: 4%;
-        right: 4%;
+        left: 6.3%;
+        right: 6.3%;
         top: 30%;
+        width: 75%;
+    }
+    .details{
+        display: flex;
+        flex-direction: column;
+    }
+    .details p{
+        margin-top: 0;
+    }
+    .discount-optional{
+        display: flex;
+        justify-content: space-between;
+    }
+    .discount-optional p{
+        margin-right: 10px;
     }
     .package-btn{
         display: none;
@@ -309,7 +327,5 @@
         font-size: 12px;
         color: #5A5A5D;
     }
-    .discount-br{
-        display: block;
-    }
+
 }

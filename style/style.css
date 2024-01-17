@@ -317,6 +317,17 @@ main{
     margin: 20px auto;
     /* padding: 25px; */
 }
+.details{
+    display: flex;
+    justify-content: space-between;
+}
+.discount-optional{
+    display: flex;
+    justify-content: space-evenly;
+}
+.discount-optional p{
+    margin-right: 50px;
+}
 .discount3{
     background-image: url('../Images/Group\ 41.jpg');
     height: 550px;
